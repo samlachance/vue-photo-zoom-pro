@@ -271,7 +271,7 @@ export default {
      */
     zoomerBgUrl() {
       return {
-        backgroundImage: `url(${this.highUrl || this.url})`
+        backgroundImage: `url('${this.highUrl || this.url}')`
       }
     },
     /**
